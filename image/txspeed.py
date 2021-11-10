@@ -26,7 +26,7 @@ THIS_FILE = Path(__file__)
 
 BARS = [
     # 10 minutes / block time
-    ("Sugarchain (SUGAR)", 600/5),
+    ("fennecfox (SUGAR)", 600/5),
     ("Digibyte (DGB)", 600/15),
     ("Verge (XVG)", 600/30),
     ("Dogecoin (DOGE)", 600/60),

@@ -1,7 +1,7 @@
 [center]
-[size=20pt][b]Sugarchain[/b][/size]
+[size=20pt][b]fennecfox[/b][/size]
 one-CPU-one-vote, the world's fastest PoW blockchain  
-https://sugarchain.org
+https://fennecfoxtoken.github.io/website
 [/center]
 
 
@@ -9,12 +9,12 @@ https://sugarchain.org
 [size=15pt]KICK OFF[/size]
 [color=red][b]2019/08/24 15:00 UTC[/b][/color]
 Saturday, 24 August 2019, 15:00:00 (UTC time)
-https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+Sugarchain+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif
+https://www.timeanddate.com/countdown/launch?iso=20190824T15&p0=1440&msg=%5BANN%5D+fennecfox+%5BCPU%5D+Launching+2019%2F08%2F24+15%3A00+UTC&font=sanserif
 [/center]
 
 
 [size=15pt]The meaning of Yumekawa[/size]
-Sugarchain's first node software is called [b]Yumekawa (夢川)[/b]. It can be translated in some ways.
+fennecfox's first node software is called [b]Yumekawa (夢川)[/b]. It can be translated in some ways.
 [list]
 [li]"Yume (夢)" means dream and "Kawa (川)" means river. So it's [b]Dream River[/b] in japanese.[/li]
 [li]The second letter "Kawa" stands for "Kawaii (可愛い)". In this case the meaning is [b]Dreamy Cute[/b].[/li]
@@ -68,13 +68,13 @@ Sugarchain's first node software is called [b]Yumekawa (夢川)[/b]. It can be t
 [li]Total supply:[list]
 [li][b]1073741824 SUGAR[/b] in theory, and [b]1073741823.875 SUGAR[/b] in actual.[/li]
 [li]The difference is [b]0.125 SUGAR[/b]. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: [b]1 GB = 1073741824 Byte (2^30)[/b].[/li]
-[li]The total supply of Sugarchain is about [b]51 times[/b] greater than Bitcoin.[/li][/list][/li]
+[li]The total supply of fennecfox is about [b]51 times[/b] greater than Bitcoin.[/li][/list][/li]
 
 [li]Halving Chart:[list]
-[li]![Halving Chart](https://github.com/sugarchain-project/website/blob/master/image/halving_chart.png)[/li][/list][/li]
+[li]![Halving Chart](https://github.com/fennecfox-project/website/blob/master/image/halving_chart.png)[/li][/list][/li]
 
 [li]Halving Table:[list]
-[li]![Halving Table](https://github.com/sugarchain-project/website/blob/master/image/halving_table.png)[/li][/list][/li]
+[li]![Halving Table](https://github.com/fennecfox-project/website/blob/master/image/halving_table.png)[/li][/list][/li]
 [/list]
 
 
@@ -84,7 +84,7 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 
 [list]
 [li]CPU mining only:[list]
-[li]YespowerSugar (based on Yespower 1.0.1) is only for Sugarchain, not compatible with other Yespower coins.[/li]
+[li]YespowerSugar (based on Yespower 1.0.1) is only for fennecfox, not compatible with other Yespower coins.[/li]
 [li]The minimum difficulty (powlimit) is set low enough for two reasons. The first is to handle fast block time; The second is to allow mining on slow CPUs.[/li][/list][/li]
 
 [li]Mining efficiency:[list]
@@ -122,22 +122,22 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 [size=15pt]Appendix[/size]
 [list]
 [li]Block time vs difficulty at first launching on testnet:[list]
-[li]To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of [b]510 blocks[/b] (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://github.com/sugarchain-project/website/blob/master/log/time_vs_difficulty-13536.log)[/li]
-[li]![Blocktime vs Difficulty](https://github.com/sugarchain-project/website/blob/master/image/time_vs_difficulty.png)[/li][/list][/li]
+[li]To keep the block time 5 seconds, SugarShield-N510 adjusts the difficulty level. Unlike the Zcash's modification version, we use a moving average of [b]510 blocks[/b] (about 42.5 minutes). It counts from block 1, an adjustment is made at block 511, and the actual control begins at block 512. [(log: time-diff)](https://github.com/fennecfox-project/website/blob/master/log/time_vs_difficulty-13536.log)[/li]
+[li]![Blocktime vs Difficulty](https://github.com/fennecfox-project/website/blob/master/image/time_vs_difficulty.png)[/li][/list][/li]
 
 [li]Nonce distribution at first launching on testnet:[list]
-[li]The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/sugarchain-project/website/blob/master/log/nonce_vs_difficulty-13548.log)[/li]
-[li]![Nonce vs Difficulty](https://github.com/sugarchain-project/website/blob/master/image/nonce_vs_difficulty.png)[/li][/list][/li]
+[li]The nonce is randomly well distributed. Difficulty changes but no bias. [(log: nonce-diff)](https://github.com/fennecfox-project/website/blob/master/log/nonce_vs_difficulty-13548.log)[/li]
+[li]![Nonce vs Difficulty](https://github.com/fennecfox-project/website/blob/master/image/nonce_vs_difficulty.png)[/li][/list][/li]
 [/list]
 
 
 [size=15pt]Wallet[/size]
 [list]
-[li]Win64: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
+[li]Win64: https://github.com/fennecfox-project/fennecfox/releases/latest[/li]
 [li]Win32: comming soon[/li]
-[li]Linux64: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
+[li]Linux64: https://github.com/fennecfox-project/fennecfox/releases/latest[/li]
 [li]Linux32: comming soon[/li]
-[li]OSX: https://github.com/sugarchain-project/sugarchain/releases/latest[/li]
+[li]OSX: https://github.com/fennecfox-project/fennecfox/releases/latest[/li]
 [li]ARM64: comming soon[/li]
 [li]ARM32: comming soon[/li]
 [li]Source: comming soon[/li]
@@ -148,11 +148,11 @@ Satoshi Nakamoto talked about the importance of decentralized mining in his whit
 Bech32 address is by default and strongly recommended. [b]-t1[/b] uses 1 thread. If you want more hash, increase this number.
 
 [list]
-[li][b]cpuminer-opt-sugarchain[/b]: https://github.com/cryptozeny/cpuminer-opt-sugarchain/releases/latest[/li]
+[li][b]cpuminer-opt-fennecfox[/b]: https://github.com/cryptozeny/cpuminer-opt-fennecfox/releases/latest[/li]
 
 [li]Solo mining: We strongly recommend solo mining for decentralization.[list]
 
-[li]Make a file [b]sugarchain.conf[/b]
+[li]Make a file [b]fennecfox.conf[/b]
 [quote][tt]server=1
 rpcuser=username
 rpcpassword=password
@@ -160,12 +160,12 @@ rpcallowip=127.0.0.1[/tt][/quote][/li]
 
 [li]Restart your Yumekawa wallet[/li]
 
-[li]Run cpuminer-opt-sugarchain (RPC=[b]34229[/b], testnet5 RPC=[b]44229[/b], regtest RPC=[b]45339[/b])
+[li]Run cpuminer-opt-fennecfox (RPC=[b]34229[/b], testnet5 RPC=[b]44229[/b], regtest RPC=[b]45339[/b])
 [quote][tt]./cpuminer -a yespower -o http://localhost:34229 --no-longpoll -u username -p password --coinbase-addr=sugar1q... -t1[/tt][/quote][/li]
 
 [li]Detailed solo mining tutorials:[list]
-[li]Windows: https://forum.sugarchain.org/d/9-solo-mining-on-windows[/li]
-[li]Linux: https://forum.sugarchain.org/d/20-solo-mining-on-linux[/li]
+[li]Windows: https://forum.fennecfoxtoken.github.io/website/d/9-solo-mining-on-windows[/li]
+[li]Linux: https://forum.fennecfoxtoken.github.io/website/d/20-solo-mining-on-linux[/li]
 [li]OSX: comming soon[/li][/list][/li]
 [/list][/li]
 
@@ -177,8 +177,8 @@ rpcallowip=127.0.0.1[/tt][/quote][/li]
 [size=15pt]Pools[/size]
 Please contact us if you have a new mining pool.
 [list]
-[li]1pool@tokyo: https://1pool.sugarchain.org[/li]
-[li]2pool@tokyo: https://2pool.sugarchain.org[/li]
+[li]1pool@tokyo: https://1pool.fennecfoxtoken.github.io/website[/li]
+[li]2pool@tokyo: https://2pool.fennecfoxtoken.github.io/website[/li]
 [li]52hash@china: http://sugar.52hash.com[/li]
 [li]rplant@moscow: https://pool.rplant.xyz[/li]
 [li]happysensor@korea: http://pool.happysensor.xyz[/li]
@@ -188,9 +188,9 @@ Please contact us if you have a new mining pool.
 
 [size=15pt]Explorer[/size]
 [list]
-[li]1explorer: https://1explorer.sugarchain.org[/li]
+[li]1explorer: https://1explorer.fennecfoxtoken.github.io/website[/li]
 [li]2explorer: comming soon[/li]
-[li]trezor blockbook: https://sugarchain-blockbook.ilmango.work/blocks[/li]
+[li]trezor blockbook: https://fennecfox-blockbook.ilmango.work/blocks[/li]
 [/list]
 
 
@@ -205,8 +205,8 @@ Please contact us if you have a new mining pool.
 [size=15pt]Community[/size]
 [list]
 [li]Discord: https://discord.gg/5fvpTdk[/li]
-[li]Forum: https://forum.sugarchain.org[/li]
+[li]Forum: https://forum.fennecfoxtoken.github.io/website[/li]
 [li]Bitcointalk: https://bitcointalk.org/index.php?topic=5177722.0[/li]
-[li]Telegram: https://t.me/sugarchain[/li]
-[li]Twitter: https://twitter.com/sugarchain_dev[/li]
+[li]Telegram: https://t.me/fennecfox[/li]
+[li]Twitter: https://twitter.com/fennecfox_dev[/li]
 [/list]
